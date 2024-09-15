@@ -1,0 +1,9 @@
+name: KotlinPlugins
+version: '1.0-SNAPSHOT'
+main: winlyps.kotlinPlugins.KotlinPlugins
+api-version: '1.16'
+authors: [ Winlyps ]
+commands:
+  kotlinplugins:
+    description: Lists plugins using by looking for Kotlin modules.
+    usage: /kotlinplugins
