@@ -14,6 +14,11 @@ class KotlinPluginCommand(private val plugin: KotlinPlugins) : CommandExecutor {
             return true
         }
 
+        if (!sender.hasPermission("kotlinplugins.use")) {
+            sender.sendMessage("§cYou do not have permission to use this command.")
+            return true
+        }
+
         // Get the list of Kotlin plugins
         val kotlinPlugins = PluginUtils.getKotlinPlugins(plugin)
 

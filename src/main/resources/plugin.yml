@@ -7,3 +7,7 @@ commands:
   kotlinplugins:
     description: Lists plugins using by looking for Kotlin modules.
     usage: /kotlinplugins
+    permission: kotlinplugins.use
+permissions:
+  kotlinplugins.use:
+    default: op
