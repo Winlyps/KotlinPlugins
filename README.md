@@ -5,4 +5,6 @@
 - Usage: ```/kotlinplugins```
 - Required permission to use this command: ```kotlinplugins.use```
 - Players with op (/op nickname) have this required permission by default.
+- Supports Bukkit, Spigot, Paper, Purpur. Super light and useful for players and developers
 - Check out other plugins: https://modrinth.com/user/Winlyps
+
